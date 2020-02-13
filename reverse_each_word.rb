@@ -3,6 +3,7 @@ def reverse_each_word(string)
   to_array = []
   while counter < string.length
     puts to_array << string[counter] 
-  end
-  counter += 1
+   counter += 1
+ end
+ 
 end
