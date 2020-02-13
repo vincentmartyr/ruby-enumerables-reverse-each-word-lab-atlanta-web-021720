@@ -1,5 +1,5 @@
 def reverse_each_word(string)
 seperated  = string.split(/ /)
 reversed = seperated.collect { |obj| obj.reverse}
-reversed.to_s
+reversed.map { |e| e.reverse }
 end
