@@ -5,6 +5,6 @@ array << string
 #seperated  = string.split(/ /)
 #reversed = seperated.collect { |obj| obj.reverse}
 #reversed = array.map { |e| e.reverse }
-puts "string".reverse
+"string".reverse
 #reversed
 end
