@@ -4,6 +4,6 @@ array << string
 #reversed = array.map {}
 #seperated  = string.split(/ /)
 #reversed = seperated.collect { |obj| obj.reverse}
-reversed = seperated.map { |e| e.reverse }
+reversed = array.map { |e| e.reverse }
 #reversed
 end
